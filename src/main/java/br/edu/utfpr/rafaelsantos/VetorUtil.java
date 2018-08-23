@@ -25,6 +25,12 @@ public class VetorUtil {
     }
 
     public double calcularMaior(double[] vetor) {
-        return 8.0;
+        double maior = vetor[0];
+
+        for (double valor : vetor) {
+            maior = valor > maior ? valor : maior;
+        }
+
+        return maior;
     }
 }
