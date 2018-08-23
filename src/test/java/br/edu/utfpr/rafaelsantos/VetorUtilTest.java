@@ -47,4 +47,11 @@ public class VetorUtilTest {
         assertEquals(1.0, vetorUtil.calcularMenor(vetor), 0.1);
     }
 
+    @Test
+    public void menorValorTest2() {
+        double[] vetor = {8.0, 0.2, 3.0, 1.0, -5.0};
+
+        assertEquals(-5.0, vetorUtil.calcularMenor(vetor), 0.1);
+    }
+
 }
