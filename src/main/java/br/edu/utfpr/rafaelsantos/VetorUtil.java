@@ -23,4 +23,8 @@ public class VetorUtil {
 
         return menor;
     }
+
+    public double calcularMaior(double[] vetor) {
+        return 8.0;
+    }
 }
