@@ -7,6 +7,10 @@ public class VetorUtil {
     }
 
     public double calcularMedia(double[] vetor) {
-        return 9.0;
+        double soma = 0;
+        for (double valor: vetor){
+            soma += valor;
+        }
+        return soma / vetor.length;
     }
 }
