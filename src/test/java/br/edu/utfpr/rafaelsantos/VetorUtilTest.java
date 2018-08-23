@@ -8,6 +8,10 @@ public class VetorUtilTest {
 
     VetorUtil vetorUtil;
 
+    public VetorUtilTest() {
+        this.vetorUtil = new VetorUtil();
+    }
+
     @Test
     public void medianaTest(){
         double[] vetor = {5.0, 6.0, 9.0};
