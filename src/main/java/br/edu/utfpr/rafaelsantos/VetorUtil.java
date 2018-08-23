@@ -8,13 +8,19 @@ public class VetorUtil {
 
     public double calcularMedia(double[] vetor) {
         double soma = 0;
-        for (double valor: vetor){
+        for (double valor : vetor) {
             soma += valor;
         }
         return soma / vetor.length;
     }
 
     public double calcularMenor(double[] vetor) {
-        return 1.0;
+        double menor = vetor[0];
+
+        for (double valor : vetor) {
+            menor = valor < menor ? valor : menor;
+        }
+
+        return menor;
     }
 }
