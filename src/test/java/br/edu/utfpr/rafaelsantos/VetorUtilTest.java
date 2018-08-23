@@ -40,4 +40,11 @@ public class VetorUtilTest {
         assertEquals(8.0, vetorUtil.calcularMedia(vetor), 0.1);
     }
 
+    @Test
+    public void menorValorTest() {
+        double[] vetor = {8.0, 5.0, 3.0, 1.0};
+
+        assertEquals(1.0, vetorUtil.calcularMenor(vetor), 0.1);
+    }
+
 }

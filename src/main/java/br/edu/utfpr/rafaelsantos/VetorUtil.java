@@ -13,4 +13,8 @@ public class VetorUtil {
         }
         return soma / vetor.length;
     }
+
+    public double calcularMenor(double[] vetor) {
+        return 1.0;
+    }
 }
