@@ -61,4 +61,11 @@ public class VetorUtilTest {
         assertEquals(8.0, vetorUtil.calcularMaior(vetor), 0.1);
     }
 
+    @Test
+    public void maiorValorTest2() {
+        double[] vetor = {8.0, 0.2, 3.0, 1.0, -5.0, 50.0};
+
+        assertEquals(50.0, vetorUtil.calcularMaior(vetor), 0.1);
+    }
+
 }
