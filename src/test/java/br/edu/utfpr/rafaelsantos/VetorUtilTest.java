@@ -33,4 +33,11 @@ public class VetorUtilTest {
         assertEquals(9.0, vetorUtil.calcularMedia(vetor), 0.1);
     }
 
+    @Test
+    public void mediaTest2() {
+        double[] vetor = {8.0, 8.0, 8.0};
+
+        assertEquals(8.0, vetorUtil.calcularMedia(vetor), 0.1);
+    }
+
 }
