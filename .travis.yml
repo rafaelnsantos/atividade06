@@ -1,0 +1,13 @@
+language: java
+
+cache:
+  directories:
+  - .autoconf
+  - $HOME/.m2
+
+addons:
+  sonarcloud:
+    organization: "rafaelnsantos-github"
+
+script:
+- mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar
